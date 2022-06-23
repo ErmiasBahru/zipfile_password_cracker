@@ -9,13 +9,19 @@
 
 ### Install the required dependencies:
 
-`$ pip install tqdm`
+```
+$ pip install tqdm
+```
 
 ### Usage:
-`$ python zip_pass.py <ZipFileYouWantToCrack> <Wordlist>`
+```
+$ python zip_pass.py <ZipFileYouWantToCrack> <Wordlist>
+```
 
 ### Example:
-`$ python zip_pass.py my_secret.zip wordlist.txt`
+```
+$ python zip_pass.py my_secret.zip wordlist.txt
+```
 
 ### Screenshot:
 
