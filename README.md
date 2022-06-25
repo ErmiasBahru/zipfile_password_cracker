@@ -1,6 +1,6 @@
 # Brute Force ZIP File Passwords in Python
 
-[live demo](https://vimeo.com/723258767)
+[watch demo](https://vimeo.com/723258767)
 
 ### Required:
 
