@@ -6,6 +6,7 @@ import argparse
 from os import path
 
 
+# Function that checks if specified file exists (for argparse)
 def file_location(location: str) -> str:
     if path.exists(location):
         return location
@@ -14,10 +15,11 @@ def file_location(location: str) -> str:
         exit(1)
 
 
+# Create Argument Parser and parse specified arguments
 parser = argparse.ArgumentParser(description="Brute force ZIP file passwords")
 parser.add_argument('zip_file', type=file_location, help="Password protected zip file")
 parser.add_argument('wordlist_file', type=file_location, help="Wordlist file")
-args = vars(parser.parse_args())
+args = vars(parser.parse_args())  # Arguments are stored in `args` dictionary
 
 # the password list path
 wordlist = args['wordlist_file']
