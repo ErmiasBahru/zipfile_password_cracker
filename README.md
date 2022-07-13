@@ -6,16 +6,17 @@
 
 1. zipfile (built-in module)
 2. tqdm
+3. argparse
 
 ### Install the required dependencies:
 
 ```
-$ pip install tqdm
+$ pip install -r requirements.txt
 ```
 
 ### Usage:
 ```
-$ python zip_pass.py <ZipFileYouWantToCrack> <Wordlist>
+$ python zip_pass.py [-h] <ZipFileYouWantToCrack> <Wordlist>
 ```
 
 ### Example:
