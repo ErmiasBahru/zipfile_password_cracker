@@ -10,9 +10,8 @@ from os import path
 def file_location(location: str) -> str:
     if path.exists(location):
         return location
-    else:
-        print(f"Error: Specified file does not exist -> {location}")
-        exit(1)
+    print(f"Error: Specified file does not exist -> {location}")
+    exit(1)
 
 
 # Create Argument Parser and parse specified arguments
